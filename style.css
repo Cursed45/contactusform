@@ -1,0 +1,101 @@
+.contact{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ *{
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+ header h1{
+    font-size:50px;
+ }
+.container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 400px;
+    width: 100%;
+    background: #e7e3e3;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px rgb(229, 242, 152);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: #5eb558; 
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+  
+}
+ .container input
+ {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #4d4a4a; 
+
+
+ } 
+.container textarea  
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #4e4b4b; 
+
+    
+}
+.container textarea{
+    resize: none;
+    height: 80px;
+  }
+ .container .btn input[type="submit"] { 
+    border: 0px; 
+    margin-top: 15px; 
+    padding: 10px; 
+    text-align: center; 
+    width: 100%; 
+    background: #569a4d; 
+    color: #fcfbf7; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    font-weight: bold; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    
+  }
+  .nav-toggle{
+	width: 40px;
+	height: 34px;
+	border:1px solid #ffffff;
+	border-radius: 3px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.5s ease;
+	display: none;
+
+  }
+  #error_message { 
+    margin-bottom: 20px; 
+    background: #fe8b8e; 
+    padding: 0px; 
+    text-align: center; 
+    font-size: 14px; 
+    transition: all 0.5s ease; 
+}
+
+  
